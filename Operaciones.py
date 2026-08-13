@@ -15,7 +15,7 @@ def multiplicar(a, b):
 
 # Esequiel Gonzalez - División
 def dividir(a, b):
+    """Realiza la división de dos números y valida la división entre cero."""
     if b == 0:
-        return "No se puede dividir entre cero."
-    else:
-        return a / b
+        return "Error: No se puede dividir entre cero."
+    return a / b
