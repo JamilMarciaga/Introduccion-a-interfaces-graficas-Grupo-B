@@ -5,7 +5,8 @@ def sumar(a, b):
 
 # Gilberto Cano - Resta
 def restar(a, b):
-    return a - b
+    resultado = a - b
+    return resultado
 
 
 # Alexis Lopez - Multiplicación
